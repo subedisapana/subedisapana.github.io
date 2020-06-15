@@ -19,3 +19,34 @@ fetch("https://api.github.com/users/subedisapana")
 
 
 
+
+     var request = new XMLHttpRequest()
+
+       request.open('GET', 'https://api.github.com/users/subedisapana/repos', true) 
+
+       request.onload= function(){
+
+                var data= JSON.parse(this.response);
+
+                var statusHTML ='';
+
+               $.each(data, function(i, status){
+
+                statusHTML += '<tr>';
+
+                
+                statusHTML += '<td>' + status.name + '</td>' ;
+                statusHTML += '<td>' + status.language + '</td>' ;
+                 statusHTML += '<td>' + status.description + '</td>' ;
+
+                statusHTML += '</tr>';
+              
+
+});
+               $('tbody').html(statusHTML);
+           }
+               
+
+               request.send();
+
+
