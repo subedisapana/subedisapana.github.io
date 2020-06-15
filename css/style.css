@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0!important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.main{
+	text-align: center;
+	background-color:#000000;
+	padding-bottom: 20px;
+	position: relative;
+   }
+
+img {
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 7px solid rgb(255, 153, 51);
+}
+
+
+img:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.navigation{
+	height: 50px;
+	display: block;
+	max-width: 80%;
+	margin:0 auto;
+    background:#000000;
+    padding: 4px 2px;
+    position: sticky;
+
+    }
+
+ul{
+	align-content: center;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 60px  30px 10px ;
+    border: 50px solid transparent;
+   }
+
+
+h1{
+ 	font-size: 40px;
+    color: #ff9933;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
+ h5{
+ 	font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+
+ }
+
+.intro{
+
+	width: 500px;
+	height: 200px;
+	font-size: 20px;
+	float: left;
+}
+
+.intro > p {
+	width: 400px;
+	font-size: 17px;
+	margin-left: 60px;
+	font-weight: 20px; 
+}
+
+.perinfo{
+	width: 300px;
+	height: 400px;
+	font-size: 20px;
+	float: right;
+	margin-right: 40px;
+	;
+
+}
